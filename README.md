@@ -1,1 +1,1 @@
-# Lott Project
+# Lotto Project
