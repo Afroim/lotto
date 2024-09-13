@@ -19,9 +19,7 @@ base_path = "C:\\Users\\Alik\\Documents\\Project\\Lotto\\data\\"
 csv_file_path = base_path + "Mega_Millions_17.csv"
 lottery_data = pd.read_csv(csv_file_path)
 # Получение данных из шестого столбца
-sixth_column_revert = lottery_data.iloc[:, 5].values
-# sixth_column = sixth_column_revert[::-1]
-sixth_column = sixth_column_revert
+sixth_column = lottery_data.iloc[:, 5].values[::-1]
 
 # Определение количества состояний (от 1 до 25)
 num_states = 25
