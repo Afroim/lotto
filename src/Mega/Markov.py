@@ -138,3 +138,5 @@ last = random.sample([14, 16, 17, 22, 24], k=4)
 # sample = [int(item[0]) for item in result[0:3]] + last
 sample = [8] + last
 print(random.sample(sample, k=len(sample)))
+
+
