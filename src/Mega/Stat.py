@@ -147,7 +147,6 @@ weighted_numbers = []
 for num, prob in proba_tbl.items():
     weighted_numbers.extend([num] * int(prob * 10000))
 
-# Generate 15 combinations of 5 numbers each
 # Initialize variables to hold combinations and a set of seen numbers
 combinations = []
 seen_numbers = set()
